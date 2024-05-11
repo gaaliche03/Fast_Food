@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      
+    </script>
+    <meta charset="utf-8" />
+    <title>Speedy Bites</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/logo.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container-xxl bg-white p-0">
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <!-- Spinner End -->
+
+      <!-- Navbar & Hero Start -->
+      <div class="container-xxl position-relative p-0">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0"
+        >
+          <a href="" class="navbar-brand p-0">
+            <h1 class="text-primary m-0">
+              Speedy Bites
+            </h1>
+            <!-- <img src="img/logo.png" alt="Logo"> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0 pe-4">
+              <a href="index.html" class="nav-item nav-link">Home</a>
+              <a href="about.html" class="nav-item nav-link">About</a>
+              <a href="service.html" class="nav-item nav-link">Service</a>
+              <a href="menu.html" class="nav-item nav-link active">Menu</a>
+              <a href="testimonial.html" class="nav-item nav-link"
+                >Testimonial</a
+              >
+
+              <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="booking.html" class="btn btn-primary py-2 px-4"
+              >Book A Table</a
+            >
+          </div>
+        </nav>
+
+        <div class="container-xxl py-5 bg-dark hero-header mb-5">
+          <div class="container text-center my-5 pt-5 pb-4">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">
+              Food Menu
+            </h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center text-uppercase">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                <li
+                  class="breadcrumb-item text-white active"
+                  aria-current="page"
+                >
+                  Menu
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar & Hero End -->
+
+      <!-- Menu Start -->
+      <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
+                <h1 class="mb-5">Most Popular Items</h1>
+            </div>
+            <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                    <li class="nav-item">
+                        <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                            <i class="fa fa-hamburger fa-2x text-primary"></i>
+                            <div class="ps-3">
+                                <small class="text-body">Popular</small>
+                                <h6 class="mt-n1 mb-0">Burger</h6>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                            <i class="fa fa-pizza-slice fa-2x text-primary"></i>
+                            <div class="ps-3">
+                                <small class="text-body">Lovely</small>
+                                <h6 class="mt-n1 mb-0">Pizza</h6>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-3">
+                            <i class="fa fa-utensils fa-2x text-primary"></i>
+                            <div class="ps-3">
+                                <small class="text-body">Special</small>
+                                <h6 class="mt-n1 mb-0">Bowl</h6>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-4">
+                        <i class="fa fa-clipboard fa-2x text-primary"></i>
+                        <div class="ps-3">
+                          <small class="text-body">Customize</small>
+                          <h6 class="mt-n1 mb-0">Your Pizza</h6>
+                        </div>
+                      </a>
+                    </li>
+             
+        
+                      <li class="nav-item">
+                        <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-5">
+                          <i class="fa fa-clipboard fa-2x text-primary"></i>
+                          <div class="ps-3">
+                            <small class="text-body">Customize</small>
+                            <h6 class="mt-n1 mb-0">Your Burger</h6>
+                          </div>
+                        </a>
+                      </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-lg-6 stc  stc" onclick="onselects(this)"  value="Ocean Bounty Burger">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/burger1.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Ocean Bounty Burger</span>
+                                            <span class="text-primary">17dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Fish, Cheddar, Onion, Pickles, Tomato, Lettuce</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc  stc" onclick="onselects(this)" value="Tropical Mexi-Chick Burger">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/burger2.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Tropical Mexi-Chick Burger</span>
+                                            <span class="text-primary">16dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Mexican Chicken, Pineapple, Cheddar, Emmental, Garlic Sauce</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc  stc" onclick="onselects(this)" value="Sunrise Classic Burger">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/burger3.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Sunrise Classic Burger</span>
+                                            <span class="text-primary">17dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Meat, Egg, Lettuce, Cheddar Slice</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc  stc" onclick="onselects(this)" value="Twin Tower Burger">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/burger4.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Twin Tower Burger</span>
+                                            <span class="text-primary">24dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Double meat, Lettuce, Cheddar, Mozzarella</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc  stc" onclick="onselects(this)"  value="Crunch Chicken Burger">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/burger5.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Crunch Chicken Burger</span>
+                                            <span class="text-primary">22dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Double Crispy Chicken, Lettuce, Pickles, Algerian Sauce</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc  stc" onclick="onselects(this)" value="Rustic Ranch Burger">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/burger6.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Rustic Ranch Burger</span>
+                                            <span class="text-primary">28dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Large Cuts Of Meat, Onion, Lettuce, Tomato, Cheddar, Goat Cheese</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc  stc" onclick="onselects(this)" value="Fire Jack Burger">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/burger7.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Fire Jack Burger</span>
+                                            <span class="text-primary">25dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Spicy Meat, Caramelized Onion, BBQ, Monterey Jack</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc  stc" onclick="onselects(this)" value="Honey Harmony Burger">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/burger8.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Honey Harmony Burger</span>
+                                            <span class="text-primary">26dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Large Beef Patty, Honey, Algerian Sauce, American Cheese, Mozzarella</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-6 stc  stc" onclick="onselects(this)" value="Minced Meat">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/pizza1.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Minced Meat</span>
+                                            <span class="text-primary">30dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Minced Meat, Tomato Sauce, Red Pepper, Onion, Olive Oil, Basil, Gruyere</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc" onclick="onselects(this)" value="Spicy Chicken">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/pizza2.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Spicy Chicken</span>
+                                            <span class="text-primary">25dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Spicy Chicken, Onion, Green Pepper, Tomato Sauce, Mozzarella </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc" onclick="onselects(this)" value="Bresaola">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/pizza3.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Bresaola</span>
+                                            <span class="text-primary">26dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Bresaola, Onion, Olive Oil, Tomato Sauce, Mozzarella, Parmesan, Oregano, Basil</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc" onclick="onselects(this)" value="Pepperoni">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/pizza4.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Pepperoni</span>
+                                            <span class="text-primary">20dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Pepperoni, Tomato Sauce, Mozzarella, Onion</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc" onclick="onselects(this)" value="Regina">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/pizza5.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Regina</span>
+                                            <span class="text-primary">23dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Fresh Champions, Smoked Ham, Chorizo, Liquid cream, Tomato Puree, Oregano, Gruyere</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc" onclick="onselects(this)" value="Napoletana">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/pizza6.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Napoletana</span>
+                                            <span class="text-primary">21dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Tomatoes, Basil, Oregano, Pesto, Olive Oil, Mozzarella</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc" onclick="onselects(this)" value="Smoked Salmon">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/pizza7.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Smoked Salmon</span>
+                                            <span class="text-primary">31dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Smoked Salmon, Olive Oil, Mozzarella, Cream Sauce, Olives, Lemon Cups</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc" onclick="onselects(this)" value="Hawaiana">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/pizza8.png" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Hawaiana</span>
+                                            <span class="text-primary">22dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Fried Tomato, Pineapple, Grated Cheese, Oregano, Cooked Ham </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-3" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-6 stc" onclick="onselects(this)" value="Chicken Mix">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Chicken Mix</span>
+                                            <span class="text-primary">25dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Crispy Chicken, Fries, Onion, Mozzarella</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc" onclick="onselects(this)" value="American Hotdog">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>American Hotdog</span>
+                                            <span class="text-primary">9dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Hotdog, Spicy Sauce, Caramelized Onion </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc" onclick="onselects(this)" value="Large Box">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Large Box</span>
+                                            <span class="text-primary">52dt</span>
+                                        </h5>
+                                        <small class="fst-italic">8 Big Mix Burger, Fried Onion, French Fries, Sauces</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc" onclick="onselects(this)" value="Caesar Salad">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Caesar Salad</span>
+                                            <span class="text-primary">19dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Breaded Escalope, Tomato, Avocado, Onion, Lettuce, Permesan, Liquid Cream</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc" onclick="onselects(this)" value="Salmon Salad">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Salmon Salad</span>
+                                            <span class="text-primary">28dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Smoked Salmon, Lettuce, Egg, Oregano, Lemon</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 stc" onclick="onselects(this)" value="Burrata Salad">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Burrata Salad</span>
+                                            <span class="text-primary">27dt</span>
+                                        </h5>
+                                        <small class="fst-italic">Burrata, Permesan, Cherry Tomato, Oregano, Pesto</small>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div id="tab-4" class="tab-pane fade show p-0">
+                      <div class="row g-5">
+                        <div
+                          class="col-lg-6 col-md-6 text-center text-lg-end overflow-hidden"
+                        >
+                          <img class="img-fluid" src="img/custompizza.png" alt="" />
+                        </div>
+      
+                        <div class="col-lg-3 col-md-6">
+                          <form id="pizzaForm">
+                            <h5
+                              class="section-title ff-secondary text-center text-primary fw-normal"
+                            >
+                              Crust
+                            </h5>
+                            <div class="option-group">
+                              <select class="form-select" id="crust" name="crust">
+                                <option value="thin">Thin Crust</option>
+                                <option value="thick">Thick Crust</option>
+                                <option value="thin">Cheese Crust</option>
+                                <option value="thick">Stuffed Pizza</option>
+                                
+                              </select>
+                            </div>
+      
+                            <h5
+                              class="section-title ff-secondary text-center text-primary fw-normal"
+                            >
+                              Sauce
+                            </h5>
+                            <div class="option-group">
+                              <select class="form-select" id="sauce" name="sauce">
+                                <option value="marinara">Marinara</option>
+                                <option value="alfredo">Alfredo</option>
+                                <option value="bbq">BBQ</option>
+                                <option value="pesto">Pesto</option>
+                                <option value="marinara">Tomato Sauce</option>
+                                <option value="alfredo">Liquid Cream</option>
+                                <option value="bbq">Cream Sauce</option>
+                              </select>
+                            </div>
+      
+                            <h5
+                              class="section-title ff-secondary text-center text-primary fw-normal"
+                            >
+                              Toppings
+                            </h5>
+      
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="cheese"
+                                name="toppings"
+                                value="cheese"
+                              />
+                              <label for="cheese">Pepperoni</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="pepperoni"
+                                name="toppings"
+                                value="pepperoni"
+                              />
+                              <label for="pepperoni">Minced Meat</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="mushrooms"
+                                name="toppings"
+                                value="mushrooms"
+                              />
+                              <label for="mushrooms">Bresaola</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="olives"
+                                name="toppings"
+                                value="olives"
+                              />
+                              <label for="olives">Smoked Ham</label>
+                            </div>
+                            <div>
+                              <div>
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    id="onions"
+                                    name="toppings"
+                                    value="onions"
+                                  />
+                                  <label for="onions">Cooked Ham</label>
+                                </div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="onions"
+                                name="toppings"
+                                value="onions"
+                              />
+                              <label for="onions">Smoked Salmon</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="onions"
+                                name="toppings"
+                                value="onions"
+                              />
+                              <label for="onions">Spicy Chicken</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="onions"
+                                name="toppings"
+                                value="onions"
+                              />
+                              <label for="onions">Marinate Chicken</label>
+                            </div>
+                            
+                            <h5
+                              class="section-title ff-secondary text-center text-primary fw-normal"
+                            >
+                              Cheese
+                            </h5>
+      
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="mozzarella"
+                                name="cheese"
+                                value="mozzarella"
+                              />
+                              <label for="mozzarella">Mozzarella</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="cheddar"
+                                name="cheese"
+                                value="cheddar"
+                              />
+                              <label for="cheddar">Cheddar</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="parmesan"
+                                name="cheese"
+                                value="parmesan"
+                              />
+                              <label for="parmesan">Parmesan</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="parmesan"
+                                name="cheese"
+                                value="parmesan"
+                              />
+                              <label for="parmesan">Gruyere</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="parmesan"
+                                name="cheese"
+                                value="parmesan"
+                              />
+                              <label for="parmesan">Grated Cheese</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="parmesan"
+                                name="cheese"
+                                value="parmesan"
+                              />
+                              <label for="parmesan">Goat Cheese</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="parmesan"
+                                name="cheese"
+                                value="parmesan"
+                              />
+                              <label for="parmesan">Emmental</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="parmesan"
+                                name="cheese"
+                                value="parmesan"
+                              />
+                              <label for="parmesan">Monterey Jack</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="parmesan"
+                                name="cheese"
+                                value="parmesan"
+                              />
+                              <label for="parmesan">American Cheese</label>
+                            </div>
+
+                            <h5
+                              class="section-title ff-secondary text-center text-primary fw-normal"
+                            >
+                              Others
+                            </h5>
+      
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="mozzarella"
+                                name="cheese"
+                                value="mozzarella"
+                              />
+                              <label for="mozzarella">Onion</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="mozzarella"
+                                name="cheese"
+                                value="mozzarella"
+                              />
+                              <label for="mozzarella">Tomatoes</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="mozzarella"
+                                name="cheese"
+                                value="mozzarella"
+                              />
+                              <label for="mozzarella">Pepper</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="mozzarella"
+                                name="cheese"
+                                value="mozzarella"
+                              />
+                              <label for="mozzarella">Basil</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="mozzarella"
+                                name="cheese"
+                                value="mozzarella"
+                              />
+                              <label for="mozzarella">Oregano</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="mozzarella"
+                                name="cheese"
+                                value="mozzarella"
+                              />
+                              <label for="mozzarella">Fresh Champions</label>
+                            </div>
+                            <div>
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="mozzarella"
+                                name="cheese"
+                                value="mozzarella"
+                              />
+                              <label for="mozzarella">Olives</label>
+                            </div>
+                            <div class="mt-4">
+                              <textarea
+                                class="form-control"
+                                placeholder="Leave a note here"
+                                id="note"
+                                style="height: 150px"
+                              ></textarea>
+                            </div>
+                            <button
+                              type="button"
+                              class="btn btn-primary top-0 end-0 mt-4"
+                              onclick="submitPizza()"
+                            >
+                              Confirm Order
+                            </button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+
+                      <div id="tab-5" class="tab-pane fade show p-0">
+                        <div class="row g-5">
+                          <div
+                            class="col-lg-6 stc  col-md-6 text-center text-lg-end overflow-hidden"
+                          >
+                            <img class="img-fluid" src="img/customburger.png" alt="" />
+                          </div>
+        
+                          <div class="col-lg-3 col-md-6">
+                            <form id="burgerForm">
+                              <h5
+                                class="section-title ff-secondary text-center text-primary fw-normal"
+                              >
+                                Bun
+                              </h5>
+                              <div class="option-group">
+                                <select class="form-select" id="bun" name="bun">
+                                  <option value="regular">Regular</option>
+                                  <option value="whileWheat">Whole Wheat</option>
+                                  <option value="brioche">Brioche</option>
+                                  <option value="lettuceWrap">Lettuce Wrap</option>
+                                </select>
+                              </div>
+        
+                              <h5
+                                class="section-title ff-secondary text-center text-primary fw-normal"
+                              >
+                                Patty
+                              </h5>
+                              <div class="option-group">
+                                <select class="form-select" id="patty" name="sauce">
+                                  <option value="beef">Beef</option>
+                                  <option value="turkey">Turkey</option>
+                                  <option value="veggie">Veggie</option>
+                                  <option value="chicken">Chicken</option>
+                                  <option value="veggie">Fish</option>
+                                  <option value="chicken">Crispy Chicken</option>
+                                  <option value="chicken">Spicy Meat</option>
+                                </select>
+                              </div>
+        
+                              <h5
+                                class="section-title ff-secondary text-center text-primary fw-normal"
+                              >
+                                Toppings
+                              </h5>
+        
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="tomato"
+                                  name="toppings"
+                                  value="tomato"
+                                />
+                                <label for="tomato">Tomatoes</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="onions"
+                                  name="toppings"
+                                  value="onions"
+                                />
+                                <label for="onions">Onion</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="mushrooms"
+                                  name="toppings"
+                                  value="mushrooms"
+                                />
+                                <label for="mushrooms">Mushrooms</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="olives"
+                                  name="toppings"
+                                  value="olives"
+                                />
+                                <label for="olives">Olives</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="friedEgg"
+                                  name="toppings"
+                                  value="friedEgg"
+                                />
+                                <label for="friedEgg">Fried Egg</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="friedEgg"
+                                  name="toppings"
+                                  value="friedEgg"
+                                />
+                                <label for="friedEgg">Lettuce</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="friedEgg"
+                                  name="toppings"
+                                  value="friedEgg"
+                                />
+                                <label for="friedEgg">Pickles</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="friedEgg"
+                                  name="toppings"
+                                  value="friedEgg"
+                                />
+                                <label for="friedEgg">Caramelized Onion</label>
+                              </div>
+                              
+                              <h5
+                                class="section-title ff-secondary text-center text-primary fw-normal"
+                              >
+                                Cheese
+                              </h5>
+        
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="mozzarella"
+                                  name="cheese"
+                                  value="mozzarella"
+                                />
+                                <label for="mozzarella">Mozzarella</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="cheddar"
+                                  name="cheese"
+                                  value="cheddar"
+                                />
+                                <label for="cheddar">Cheddar</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="parmesan"
+                                  name="cheese"
+                                  value="parmesan"
+                                />
+                                <label for="parmesan">Parmesan</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="parmesan"
+                                  name="cheese"
+                                  value="parmesan"
+                                />
+                                <label for="swiss">Swiss</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="parmesan"
+                                  name="cheese"
+                                  value="parmesan"
+                                />
+                                <label for="swiss">American Cheese</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="parmesan"
+                                  name="cheese"
+                                  value="parmesan"
+                                />
+                                <label for="swiss">Monterey Jack</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="parmesan"
+                                  name="cheese"
+                                  value="parmesan"
+                                />
+                                <label for="swiss">Goat Cheese</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="parmesan"
+                                  name="cheese"
+                                  value="parmesan"
+                                />
+                                <label for="swiss">Emmental</label>
+                              </div>
+        
+                              <h5
+                                class="section-title ff-secondary text-center text-primary fw-normal"
+                              >
+                                Sauces
+                              </h5>
+        
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="ketchup"
+                                  name="sauces"
+                                  value="ketchup"
+                                />
+                                <label for="ketchup">Ketchup</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="mayonnaise"
+                                  name="sauces"
+                                  value="mayonnaise"
+                                />
+                                <label for="mayonnaise">Garlic Sauce</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="pesto"
+                                  name="sauces"
+                                  value="pesto"
+                                />
+                                <label for="pesto">Pesto</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="pesto"
+                                  name="sauces"
+                                  value="pesto"
+                                />
+                                <label for="pesto">Algerian Sauce</label>
+                              </div>
+                              <div>
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  id="pesto"
+                                  name="sauces"
+                                  value="pesto"
+                                />
+                                <label for="pesto">Honey</label>
+                              </div>
+                              <div class="mt-4">
+                                <textarea
+                                  class="form-control"
+                                  placeholder="Leave a note here"
+                                  id="note"
+                                  style="height: 150px"
+                                ></textarea>
+                              </div>
+ 
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    
+        <button
+        type="button"
+        class="btn btn-primary top-0 end-0 mt-4"
+        onclick="submitBurger()"
+      >
+        Confirm Order
+      </button>  </div>
+          <!-- Menu End -->
+
+          <!-- Footer Start -->
+          <div
+            class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+          >
+            <div class="container py-5">
+              <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                  <h4
+                    class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+                  >
+                    Company
+                  </h4>
+                  <a class="btn btn-link" href="about.html">About Us</a>
+                  <a class="btn btn-link" href="contact.html">Contact Us</a>
+                  <a class="btn btn-link" href="booking.html">Reservation</a>
+                  <a class="btn btn-link" href="">Privacy Policy</a>
+                  <a class="btn btn-link" href="">Terms & Condition</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <h4
+                    class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+                  >
+                    Contact
+                  </h4>
+                  <p class="mb-2">
+                    <i class="fa fa-map-marker-alt me-3"></i>Habib Bourguiba
+                    Street, Monastir, Tunisia
+                  </p>
+                  <p class="mb-2">
+                    <i class="fa fa-phone-alt me-3"></i>+216 73 555 900
+                  </p>
+                  <p class="mb-2">
+                    <i class="fa fa-envelope me-3"></i>speedybites@gmail.com
+                  </p>
+                  <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href=""
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-social" href=""
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-social" href=""
+                      ><i class="fab fa-youtube"></i
+                    ></a>
+                    <a class="btn btn-outline-light btn-social" href=""
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <h4
+                    class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+                  >
+                    Opening
+                  </h4>
+                  <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                  <p>09AM - 12PM</p>
+                  <h5 class="text-light fw-normal">Sunday</h5>
+                  <p>10AM - 12PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <h4
+                    class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+                  >
+                    Account
+                  </h4>
+
+                  <div
+                    class="position-relative mx-auto"
+                    style="max-width: 400px"
+                  >
+                    <input
+                      class="form-control border-primary w-100 py-3 ps-4 pe-5"
+                      type="text"
+                      placeholder="Your email"
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                    >
+                      Log in
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="copyright">
+                <div class="row">
+                  <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    © 2024 Speedy Bites Properties, Inc. All rights reserved.
+                  </div>
+                  <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                      <a href="index.html">Home</a>
+                      <a href="">Cookies</a>
+                      <a href="">Help</a>
+                      <a href="">FQAs</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Footer End -->
+
+          <!-- Back to Top -->
+          <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <!-- Js files-->
+    <script src="js/menu.js"></script>
+  </body>
+</html>
